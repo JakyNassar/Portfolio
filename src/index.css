@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@theme {
+    /* --Typography--primaryText:"Poppins", sans-serif;" */
+    --color-primary:#0C96E2
+}
