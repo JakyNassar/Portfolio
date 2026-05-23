@@ -8,7 +8,7 @@ function Show() {
         {
             id:1,
             date:"24/3/2024",
-            image:"/countries.png",
+            image:"/Portfolio/countries.png",
             details:"This project is about countries and details of each country, which can be accessed by searching using the search button.",
             desc:"countries details",
             tools:"Html,Css,Js",
@@ -19,7 +19,7 @@ function Show() {
           {
             id:2,
             date:"24/3/2025",
-            image:"/travel.png",
+            image:"/Portfolio/travel.png",
             details:"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
             desc:"travel website ",
             tools:"Html,Css",
@@ -30,7 +30,7 @@ function Show() {
           {
             id:3,
             date:"2/3/2025",
-            image:"/gender.png",
+            image:"/Portfolio/gender.png",
             details:"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
             tools:"Html,Css,Js",
              desc:"Expect the gender",
@@ -41,7 +41,7 @@ function Show() {
           {
             id:4,
             date:"20/3/2022",
-            image:"/exams.png",
+            image:"/Portfolio/exams.png",
             desc:"exam",
             tools:"Html,Css,Js",
             details:"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
@@ -52,7 +52,7 @@ function Show() {
           {
             id:5,
             date:"04/10/2022",
-            image:"/roll.png",
+            image:"/Portfolio/roll.png",
             desc:"roll the dice",
             details:"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
             tools:"Html,Css,Js",
@@ -63,7 +63,7 @@ function Show() {
           {
             id:6,
             date:"20/1/2026",
-            image:"/trippy.png",
+            image:"/Portfolio/trippy.png",
             desc:"trippy",
             details:"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra",
             tools:"Html,Css,Js,react",

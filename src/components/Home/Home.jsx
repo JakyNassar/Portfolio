@@ -5,8 +5,8 @@ import { Outlet } from 'react-router'
     
    return (
     <div className=' home h-[600PX] pt-[70PX] '>
-     <div className=' flex justify-around  mt-[1%] lg:justify-around md:flex md:justify-between mt-[50px]'>
-       <div className='max-w-1/2 pt-20 md:pl-[50px]'>
+     <div className=' flex flex-col-reverse items-center md:flex md:flex-row justify-around  mt-[1%] lg:justify-around md:flex md:justify-around mt-[50px]'>
+       <div className='md:max-w-1/2 w-[60%] pt-10 md:pt-[20PX] md:pl-[50px]'>
         <h2 className='font-bold text-[25px] 
         sm:text-[30px]
         md:text-[35px]
@@ -20,22 +20,13 @@ import { Outlet } from 'react-router'
          flex
           relative
           mt-8
-          w-[45%]
-          sm:w-[40%]
+          md:mt-0
+          w-[60%]
+          sm:w-[50%]
           md:w-[40%]
           lg:w-[30%]
-           md:before:content-[''] 
-           md:before:absolute
-           md:before:w-3/4
-           md:before:h-1/2
-           md:before:top-[-4%]
-           md:before:left-[-5%]
-           lg:before:w-3/4
-           lg:before:h-3/4
-         before:bg-gray-300 
-           before:z-0
-           before:rounded-full">
-        <img className='  md:w-2/3 relative z-10' src="/Portfolio/jaky.png" alt="" />
+        ">
+        <img className='  md:w-full   relative z-10' src="/Portfolio/jaky.png" alt="" />
 
        </div>
      </div>

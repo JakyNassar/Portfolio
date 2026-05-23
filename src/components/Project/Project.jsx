@@ -8,37 +8,37 @@ function Project() {
     const items=[
         {
             id:1,
-            image:"/countries.png",
+            image:"/Portfolio/countries.png",
             desc:"countries details",
             tools:"Html,Css,Js",
         },
           {
             id:2,
-            image:"/travel.png",
+            image:"/Portfolio/travel.png",
             desc:"travel website ",
             tools:"Html,Css",
         },
           {
             id:3,
-            image:"/gender.png",
+            image:"/Portfolio/gender.png",
             desc:"Expect the gender",
             tools:"Html,Css,Js",
         },
           {
             id:4,
-            image:"/exams.png",
+            image:"/Portfolio/exams.png",
             desc:"exam",
             tools:"Html,Css,JS",
         },
           {
             id:5,
-            image:"/roll.png",
+            image:"/Portfolio/roll.png",
             desc:"roll the dice",
             tools:"Html,Css,Js",
         },
           {
             id:6,
-            image:"/trippy.png",
+            image:"/Portfolio/trippy.png",
             desc:"trippy",
             tools:"Html,Css,Js,react",
         }
@@ -79,7 +79,7 @@ function Project() {
             
              </div>
           </div>
-            <div className='flex items-center sm:w-full  sm:justify-between '>
+            <div className='flex items-center w-full  justify-around '>
                <div>
                 <h3 className='font-bold text-[15px] uppercase md:text-[20px] '>{item.desc}</h3>
                 <p>{item.tools}</p> 

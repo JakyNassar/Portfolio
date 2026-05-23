@@ -18,21 +18,21 @@ const routes= createBrowserRouter([
     element:<Constants/>,
     children:[
        {
-    path:"",
+    index:true ,
     element:<Root/>,
  
   },{
-    path:"/show/:id",
+    path:"show/:id",
     element:<Show/>
   }
 
     ]
-  },{
-    basename:"/Portfolio"
   }
  
  
-])
+],{
+    basename:"/Portfolio"
+  })
 createRoot(document.getElementById('root')).render(
    <StrictMode>
   <RouterProvider router={routes}>
